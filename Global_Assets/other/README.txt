@@ -1,0 +1,1 @@
+Ide kell azokat a fájlokat tenni amiket minden oldalban használunk
