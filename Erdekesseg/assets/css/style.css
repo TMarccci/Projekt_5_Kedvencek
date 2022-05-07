@@ -1,0 +1,57 @@
+/*
+div, table, tr, td {
+    border: rgba(0, 0, 0, 0.309) 0.1px solid;
+}
+*/
+
+
+* {
+    --hatter: #d1d1d1;
+    --h1custcolor: #000000;
+    --h4custcolor: #5c5c5c;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--hatter);
+}
+
+
+/* Header */
+
+
+.header {
+    height: 150px;
+}
+
+.h4cust {
+    font-style: italic;
+    margin-top: -10px;
+    font-weight: 300;
+    color: var(--h4custcolor);
+}
+
+.headsegm {
+    padding: 50px 0px;
+}
+
+.homebutton {
+    opacity: 40%;
+}
+
+.notextdec {
+    text-decoration: none;
+}
+
+.navbutton {
+    padding: 25px 20px;
+    color: black;
+}
+
+
+/* Content */
+
+
+#hr{
+    opacity: 10%;
+}
