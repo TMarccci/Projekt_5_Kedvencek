@@ -2,6 +2,7 @@
     --hatter: #d1d1d1;
     --h1custcolor: #000000;
     --h4custcolor: #5c5c5c;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -76,6 +77,26 @@ div, table, tr, td {
 
 .dlcs {
     text-align: center;
+}
+
+.platformlogo {
+    height: 20px;
+    margin-top: -5px;
+    padding-left: 20px;
+}
+
+.promogif {
+    border: solid 3px gray;
+    border-radius: 5px;
+    box-shadow: gray 3px 3px 10px;
+}
+
+.buynow {
+    font-weight: 500;
+    box-shadow: gray 3px 3px 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
