@@ -3,8 +3,11 @@
 Egy weboldal ami bemutatja a csapatunk közösen megszavazott kedvenc játékát.
 
 ## Betekintő képek
-![Home](https://github.com/TMarccci/Projekt_5_Kedvencek/Teasers/Home.png)
-![Feel](https://github.com/TMarccci/Projekt_5_Kedvencek/Teasers/Feel.png)
+### Főoldal
+![Home](https://raw.githubusercontent.com/TMarccci/Projekt_5_Kedvencek/master/Teasers/Home.png)
+
+### Játékélmény
+![Feel](https://raw.githubusercontent.com/TMarccci/Projekt_5_Kedvencek/master/Teasers/Feel.png)
 
 ## Készítette:
 -  **Pongrácz Gábor**
