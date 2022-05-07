@@ -51,7 +51,36 @@ body {
 
 /* Content */
 
-
 #hr{
     opacity: 10%;
+}
+
+.content-top-img {
+    margin: 10px auto 10px auto;
+    border-radius: 30px;
+}
+
+.h3cust {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.contcol1 {
+    padding-right: 60px;
+}
+.contcol2 {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.secondcoltext {
+    padding: 5px 10px;
+}
+
+/* Footer */
+
+.footer {
+    margin: 50px auto;
 }
