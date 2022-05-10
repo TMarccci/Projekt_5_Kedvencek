@@ -1,6 +1,6 @@
 # Projekt_5_Kedvencek
 ### IKT Projektmunka 5. Feladata
-Egy weboldal ami bemutatja a csapatunk közösen megszavazott kedvenc játékát.
+Egy weboldal ami bemutatja a csapatunk közösen megszavazott kedvenc játékát
 
 ## Betekintő képek
 ### Főoldal
