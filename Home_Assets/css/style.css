@@ -8,12 +8,6 @@ body {
     background-color: var(--hatter);
 }
 
-/*
-div, table, tr, td {
-    border: rgba(0, 0, 0, 0.309) 0.1px solid;
-}
-*/
-
 /* Header */
 
 .header {
@@ -49,7 +43,6 @@ div, table, tr, td {
     text-decoration: underline;
     font-style: italic;
 }
-
 
 /* Footer */
 
