@@ -1,2 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Header */
+
+.h1cust {
+    color: var(--h1custcolor);
+}
+
+.h4cust {
+    font-style: italic;
+    margin-top: -10px;
+    font-weight: 300;
+    color: var(--h4custcolor);
+}
+
+.homebutton {
+    opacity: 40%;
+}
+
+.notextdec {
+    text-decoration: none;
+}
+
+/* Content */
+
+.h3cust {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-style: italic;
+}

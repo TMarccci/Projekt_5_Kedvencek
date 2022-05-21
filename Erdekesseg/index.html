@@ -17,54 +17,52 @@
 </head>
 
 <body class="container">
-    <!--Header-->
-    <div class="header row">
-        <div class="col my-auto grow">
-            <div class="growbigger">
-                <h1>
-                    Érdekességek
-                </h1>
-                <h4 class="h4cust">
-                    / Modolás
-                </h4>
-            </div>
-        </div>
-        <div class="headsegm col my-auto">
-            <div class="row">
-                <div class="col-4">
-                </div>
-                <div class="col-3 text-end my-auto">
-                    <p class="navbutton floatup">Játékélmény</p>
-                    </a>
-                </div>
-                <div class="col-3 text-end my-auto">
-                    <p class="navbutton floatup">Platformok</p>
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a href="../Home/index.html">
-                        <img src="../Global_Assets/img/Home.svg" alt="Home" class="homebutton float-end floatup">
-                    </a>
+    <div class="header row mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="d-flex align-items-center">
+                <div class="col my-auto growbigger text-end mt-3">
+                    <h1 class="h1cust">
+                        Érdekességek
+                    </h1>
+                    <h4 class="h4cust">
+                        / Modolás
+                    </h4>
                 </div>
             </div>
-        </div>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-auto me-3">
+                            <a class="nav-link growbigger" href="#modpack">Mod / Pack</a>
+                        </li>
+                        <li class="nav-item ms-auto me-3">
+                            <a class="nav-link growbigger" href="#roleplay">Roleplay</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
     <!--Content-->
     <div class="content row">
-        <div class="content-top-img">
+        <div class="content-top-img row-12">
             <img src="./assets/img/Bar3.png" alt="Bar" class="img-fluid img-thumbnail">
         </div>
-        <div class="contcol1 col-8">
+        <div class="contcol1 col-12 col-md-8 pe-md-3">
             <section class="gamefeelfull">
-                <h3 class="h3cust">Bevezető:</h3>
-                <h4>Mod / Pack</h4>
+                <h3 id="modpack" class="h3cust">Mod / Pack</h3>
                 <p>
                     A Grand Theft Auto játékhoz rengeteg plusz modot illetve kinézet céljából texture pack-et vagy
                     shaders-t lehet társítani, ami növeli a játékélményt. Például az alap GTA 5-höz szórakoztatás
                     céljából a legnépszerűbb mod a Chaos mod, (amit magyar influenszerek is játszanak.)
                 </p>
                 <hr id="hr">
-                <h4>Roleplay</h4>
+                <h3 id="roleplay" class="h3cust">Roleplay</h3>
                 <p>
                     A GTA 5 roleplay egy olyan „továbbfejleszett” GTA 5, aminek egy külön Launcher-e van. Ebből a
                     legismertebb a Fivem. A roleplay-hez szükséges dolgok:</p>
@@ -100,7 +98,7 @@
                 </p>
             </section>
         </div>
-        <div class="contcol2 col-4 text-center">
+        <div class="contcol2 col-10 col-md-4 mx-auto text-center text-md-end my-5 ps-md-3">
             <p class="secondcoltext">
                 A FiveM a Grand Theft Auto V módosítása, amely lehetővé teszi, hogy a játékosok
                 többjátékos módban játsszhassanak testreszabott dedikált szervereken, ami a Cfx.re által üzemeltetett.
