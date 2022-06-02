@@ -260,7 +260,21 @@
     </div>
     <script>
         // Forrás: W3
-        var mybutton = document.getElementById("gotop");
+        const mybutton = document.getElementById("gotop");
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 20) {
+                mybutton.classList.add('active')
+            }
+
+            if (window.pageYOffset === 0) {
+                mybutton.classList.remove('active')
+
+            }
+
+
+        })
+
 
         function topFunction() {
             document.body.scrollTop = 0;

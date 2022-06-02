@@ -40,6 +40,12 @@ body {
     height: 52px;
     width: 50px;
     border-radius: 50%;
+    transition: all 250ms ease;
+    opacity: 0;
+}
+
+#gotop.active {
+    opacity: 1;
 }
 
 #gotop:hover {
