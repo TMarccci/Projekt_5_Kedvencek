@@ -12,15 +12,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <link rel="stylesheet" href="../Global_Assets/css/anim.css">
     <link rel="stylesheet" href="../Global_Assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script>
+        $(window).on('load', function () {
+            $('#loading').hide();
+        })  
+    </script>
     <title>Történet / Karakterek</title>
 </head>
 
 <body class="container">
+    <div id="loading">
+        <div class="spinner-border loading-image" role="status">
+            <span class="visually-hidden"></span>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="gotop">
+        <i class="fa-solid fa-arrow-up gotoparrow"></i>
+    </button>
     <div class="header row mt-2">
         <nav class="navbar navbar-expand-lg navbar-light py-3">
             <a href="../index.html" class="growbigger">
@@ -234,7 +249,29 @@
             </p>
         </div>
     </div>
+    <script>
+        // Forrás: W3
+        const mybutton = document.getElementById("gotop");
 
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 20) {
+                mybutton.classList.add('active')
+            }
+
+            if (window.pageYOffset === 0) {
+                mybutton.classList.remove('active')
+
+            }
+
+
+        })
+
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
